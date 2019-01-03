@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+    margin: 0px;
+}
+
+#header{
+    background-color: #EC4849;
+    height: 10vh;
+}
+#headerimg{
+    position: absolute;
+    left: 36vw;
+}
+
+#body{
+    background-color: #DAE0E2;
+}
+
+.col-wid{
+    width: 60vw;
+    height: 65vh;
+    margin-left: 20vw;
+}
+
+#footer{
+    background-color: black;
+    height: 15vh;
+}
+
+h2{
+    font-family: 'Crete Round', serif;
+    padding: 20px;
+    position: absolute;
+    left: 44vw;
+}

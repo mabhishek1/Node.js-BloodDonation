@@ -1,0 +1,21 @@
+{
+  "name": "blooddon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Abhishek",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "mysqljs": "0.0.2-security",
+    "nodemailer": "^4.6.8",
+    "nodemon": "^1.18.4",
+    "path": "^0.12.7",
+    "pug": "^2.0.3"
+  }
+}

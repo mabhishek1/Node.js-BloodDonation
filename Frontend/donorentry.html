@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Crete+Round" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    
+    <link rel="stylesheet" href="../css/donent.css">
+    <title>Donor registration</title>
+</head>
+<body>
+    <center> <h1>Donor Registration</h1> </center>
+    
+        <div id="logindiv">
+            <form action="./donreg" method="post" >
+                <br><br>
+            <strong>Name </strong> 
+             <input type="text" placeholder="Name" name="name">
+            <br><br>
+            <strong>Address </strong> 
+             <input type="text" placeholder="Address" name="address">
+            <br><br>
+            <strong>Phonenumber </strong>  
+             <input type="text" placeholder="phonenumber" name="phoneno">
+            <br><br>
+            <strong>EmailId </strong> 
+             <input type="email" name="emailid" placeholder="Emailid">
+             <br><br>
+             <strong>Bloodgroup </strong>
+             <input type="text" placeholder="Bloodgroup" name="bloodgroup">
+             <br><br>
+             <strong>Date Of Birth  </strong>
+             <input type="date" name="dob" id="">
+             <br><br>
+             <strong>Register to Bloodbank  </strong>
+             <input type="number" name="orgid"> <button type="button" class="btn btn-info" id="showorginfo">Show Organisation List</button> <div id="orglistdiv"></div>
+             
+             <br><br>
+             <button  class="btn btn-primary success" type="submit"  >Register</button>
+             <br><br>
+            </form>
+        </div>            
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> 
+    <script src="./script/donor.js"></script>
+</body>
+</html>

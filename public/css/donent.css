@@ -1,0 +1,29 @@
+body{
+    margin: 0%;
+    height: 100%;
+    background-color: #2B2B52;
+}
+
+#logindiv{
+    background-color: #01CBC6;
+    margin: 100px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 90px;
+    
+    
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: aqua;
+    
+}
+
+#orglistdiv{
+    /* height: 100px;
+    width: 400px; */
+    position: absolute;
+    top: 8.5vh;
+    left: 60vw;
+    background-color: aquamarine;
+}
